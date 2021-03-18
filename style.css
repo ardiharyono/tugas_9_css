@@ -1,0 +1,30 @@
+body {
+  background-image: url("slider2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  height: 600px;
+  z-index: 1;
+}
+
+img {
+  width: 0px;
+  height: 0px;
+}
+
+div {
+  background-color: white;
+  float: right;
+  position: relative;
+  width: 800px;
+  height: 550px;
+  text-align: right;
+  z-index: 2;
+}
+
+p {
+  font-size: 14px;
+  font-style: bold;
+  z-index: 3;
+}
